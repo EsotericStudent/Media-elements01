@@ -1,0 +1,25 @@
+.two-layer-container {
+  position: relative;
+}
+
+.background {
+  width: 100%;
+
+  filter: blur(5px);
+}
+
+.foreground-container {
+  position: absolute;
+  top: 0px;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  background-color: rgb(240 248 255 / 70%);
+}
